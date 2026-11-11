@@ -1,0 +1,4 @@
+bluetooth.device.default_name=Redmi K80
+ro.product.odm.model=24117RK2CC
+ro.product.odm.name=zorn
+vendor.usb.product_string=Redmi K80
