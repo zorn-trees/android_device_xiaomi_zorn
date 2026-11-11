@@ -1,2 +1,0 @@
-# Camera
-vendor.xiaomi.hardware.bgservice::IBGService                 u:object_r:hal_camera_mivi_hwservice:s0
