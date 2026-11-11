@@ -7,7 +7,7 @@
 PRODUCT_SHIPPING_API_LEVEL := 35
 
 # Camera
-$(call inherit-product, device/xiaomi/zorn-camera/camera.mk)
+$(call inherit-product-if-exists, device/xiaomi/zorn-miuicamera/device.mk)
 
 # Init
 PRODUCT_PACKAGES += \

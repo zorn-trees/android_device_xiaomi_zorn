@@ -25,8 +25,5 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_ZORN_DTB=y
 TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
-# Camera
-include device/xiaomi/zorn-camera/BoardConfigCamera.mk
-
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/zorn/BoardConfigVendor.mk

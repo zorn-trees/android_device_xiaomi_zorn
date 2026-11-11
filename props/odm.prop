@@ -21,6 +21,10 @@ vendor.audio.mic.status=off
 vendor.audio.ultrasound.stoplatency=60
 vendor.audio.ultrasound.usync=100
 
+# Camera
+ro.camerax.extensions.enabled=false
+ro.camera.disableHeicUltraHDR=true
+
 # DRM
 vendor.wv.oemcrypto.debug.enable_prov40=true
 
