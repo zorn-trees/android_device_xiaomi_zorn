@@ -25,6 +25,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_ZORN_DTB=y
 TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Camera
 -include device/xiaomi/zorn-miuicamera/BoardConfig.mk
 

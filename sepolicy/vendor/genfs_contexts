@@ -1,0 +1,4 @@
+# Wakeup
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a80000.i2c/i2c-7/7-0028/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a8c000.i2c/i2c-8/8-000e/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:mi_t1_chip/wakeup u:object_r:sysfs_wakeup:s0
