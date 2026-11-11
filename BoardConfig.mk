@@ -6,7 +6,7 @@
 DEVICE_PATH := device/xiaomi/zorn
 
 # Partitions
-BOARD_SUPER_PARTITION_SIZE := 11804868608
+BOARD_SUPER_PARTITION_SIZE := 11811160064
 
 # Inherit from the common OEM chipset BoardConfig.
 include device/xiaomi/sm8650-common/BoardConfigCommon.mk
