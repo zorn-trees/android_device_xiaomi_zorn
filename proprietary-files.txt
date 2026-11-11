@@ -70,6 +70,7 @@ odm/etc/display/LUT2.txt
 
 # Fingerprint
 odm/lib64/libgf_hal.so
+odm/lib64/libqc_hal.so
 odm/lib64/hw/fingerprint.goodix_us.so:odm/lib64/hw/fingerprint.goodix_us.default.so;FIX_SONAME
 odm/lib64/hw/fingerprint.qcom_us.so:odm/lib64/hw/fingerprint.qcom_us.default.so;FIX_SONAME
 
@@ -689,6 +690,7 @@ odm/lib64/libaidenoiserv2.so
 odm/lib64/libanc_edof_checker.so
 odm/lib64/libanc_single_bokeh.so
 odm/lib64/libanc_single_rt_bokeh.so
+odm/lib64/libarc.ion.so
 odm/lib64/libarcsoft_hdr_detection.so
 odm/lib64/libarcsoft_hdr_raw.so
 odm/lib64/libarcsoft_hdr_raw_grf.so
@@ -727,6 +729,7 @@ odm/lib64/libcom.xiaomi.debug.so
 odm/lib64/libcom.xiaomi.ecoenginemonitor.so
 odm/lib64/libcom.xiaomi.eventcallback.so
 odm/lib64/libcom.xiaomi.grallocutils.so
+odm/lib64/libcom.xiaomi.ionutils.so
 odm/lib64/libcom.xiaomi.mawutils.so
 odm/lib64/libcom.xiaomi.mawutilsold.so
 odm/lib64/libcom.xiaomi.metadatautils.so
@@ -802,6 +805,7 @@ odm/lib64/libsnpe_config.so;DISABLE_CHECKELF
 odm/lib64/libswregistrationalgo.so
 odm/lib64/libtfestriping.so
 odm/lib64/libubifocus.so
+odm/lib64/libvega_common.so
 odm/lib64/libvideoml.so
 odm/lib64/libwa_widelens_undistort.so
 odm/lib64/libwrapper_dlengine.so;DISABLE_CHECKELF
