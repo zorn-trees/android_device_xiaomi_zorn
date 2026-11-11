@@ -9,6 +9,10 @@ PRODUCT_SHIPPING_API_LEVEL := 35
 # Camera
 $(call inherit-product-if-exists, device/xiaomi/zorn-miuicamera/device.mk)
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/displayconfig/display_id_4630946540531149187.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946540531149187.xml
+
 # Init
 PRODUCT_PACKAGES += \
     init.zorn.rc

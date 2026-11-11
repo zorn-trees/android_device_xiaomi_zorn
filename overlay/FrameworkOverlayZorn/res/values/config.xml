@@ -26,7 +26,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 1.0 for maximum brightness range.
          The user is forbidden from setting the brightness above this level. -->
-    <item name="config_screenBrightnessSettingMaximumFloat" type="dimen" format="float">0.499938</item>
+    <item name="config_screenBrightnessSettingMaximumFloat" type="dimen" format="float">0.333272</item>
 
     <!-- Default screen brightness setting set.
          -2 is invalid so setting will resort to int value specified above.
