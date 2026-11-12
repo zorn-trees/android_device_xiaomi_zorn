@@ -1513,3 +1513,12 @@ odm/lib64/libmiphone_preview_mdbokeh.so
 odm/lib64/libmorpho_Depurple.so;DISABLE_CHECKELF
 odm/lib64/libsupermoon.so
 odm/lib64/libvideoBokeh.so
+
+# SNPE dependent libraries (moved from common, depend on zorn libSNPE)
+vendor/lib64/libSNPESample.so
+vendor/lib64/libmialgo.so
+vendor/lib64/libmilut.so
+vendor/lib64/libmips.so
+vendor/lib64/libmisr.so
+vendor/lib64/libqcodec2_mocklutfilter.so
+vendor/lib64/libqcodec2_srfilter.so
