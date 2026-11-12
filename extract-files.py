@@ -277,6 +277,26 @@ blob_fixups: blob_fixups_user_type = {
             'android.hardware.graphics.allocator-V1-ndk.so',
             'android.hardware.graphics.allocator-V2-ndk.so'
     ),
+    (
+        'odm/lib64/camera/com.qti.actuator.zorn_acc_ovx8000_gt9764v_wide_ii_actuator.so',
+        'odm/lib64/camera/com.qti.actuator.zorn_ofilm_ovx8000_pd9302a_wide_i_actuator.so',
+        'odm/lib64/camera/com.qti.eeprom.zorn_acc_ov08d10_p24c64e_ultra_i_eeprom.so',
+        'odm/lib64/camera/com.qti.eeprom.zorn_acc_ov20b40_gt24p64e_front_eeprom.so',
+        'odm/lib64/camera/com.qti.eeprom.zorn_acc_ovx8000_p24c128f_wide_ii_eeprom.so',
+        'odm/lib64/camera/com.qti.eeprom.zorn_ofilm_ovx8000_p24c128f_wide_i_eeprom.so',
+        'odm/lib64/camera/com.qti.eeprom.zorn_sunny_ov08d10_gt24p64e_ultra_ii_eeprom.so',
+        'odm/lib64/camera/com.qti.sensor.zorn_acc_ov08d10_ultra.so',
+        'odm/lib64/camera/com.qti.sensor.zorn_acc_ov20b40_front.so',
+        'odm/lib64/camera/com.qti.sensor.zorn_ofilm_ovx8000_wide.so',
+        'odm/lib64/camera/components/com.mi.node.rearvideo.so',
+        'odm/lib64/camera/components/com.qti.node.swvrt.so',
+        'odm/lib64/camera/components/com.xiaomi.node.smooth_transition.so',
+        'odm/lib64/libcom.xiaomi.intentaware.so',
+    ): blob_fixup()
+        .replace_needed(
+            'android.hardware.graphics.allocator-V1-ndk.so',
+            'android.hardware.graphics.allocator-V2-ndk.so'
+    ),
     'odm/lib64/com.qti.feature2.anchorsync.so': blob_fixup()
         .replace_needed(
             'android.hardware.graphics.allocator-V1-ndk.so',
