@@ -33,6 +33,7 @@ namespace_imports = [
     'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/dataservices',
     'vendor/qcom/opensource/display',
+    'vendor/xiaomi/sm8650-common',
 ]
 
 def blob_fixup_graphic_buffer_size(
