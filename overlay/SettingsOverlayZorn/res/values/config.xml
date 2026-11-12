@@ -31,4 +31,8 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar">90</integer>
+
+    <!-- Evolution X maintainer -->
+    <string name="build_maintainer_summary" translatable="false">SnowyQuest</string>
+    <string name="build_maintainer_donate_url" translatable="false"></string>
 </resources>

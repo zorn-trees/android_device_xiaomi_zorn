@@ -14,6 +14,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from zorn device
 $(call inherit-product, device/xiaomi/zorn/device.mk)
 
+# Evolution X
+EVO_BUILD_TYPE := Unofficial
+WITH_GMS := true
+TARGET_INCLUDE_BOOT_ANIMATIONS := true
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 3200
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_NAME := lineage_zorn
 PRODUCT_DEVICE := zorn
 PRODUCT_MANUFACTURER := Xiaomi
