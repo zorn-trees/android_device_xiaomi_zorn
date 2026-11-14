@@ -13,6 +13,11 @@ $(call inherit-product-if-exists, device/xiaomi/zorn-miuicamera/device.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/displayconfig/display_id_4630946540531149187.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946540531149187.xml
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0-service \
+    hwservicemanager
+
 # Init
 PRODUCT_PACKAGES += \
     init.zorn.rc
